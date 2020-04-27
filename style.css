@@ -1,0 +1,35 @@
+html, body{
+    font-family: 'Libre Baskerville', serif;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: url("https://images.pexels.com/photos/132340/pexels-photo-132340.jpeg?cs=srgb&dl=turned-on-pendant-lamp-132340.jpg&fm=jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+hr { 
+    border : 0;
+    height: 1px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0,  0.75), rgba(0, 0, 0,0), rgba(0, 0, 0,  0.75)); 
+    max-width: 35rem;
+  }
+
+.buffer{
+    height:25rem;
+}
+
+.btn{
+    box-shadow: 2px 2px 3px rgb(78, 76, 76);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color:;
+}
